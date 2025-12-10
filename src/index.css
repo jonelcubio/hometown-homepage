@@ -27,7 +27,7 @@
 }
 
 .activity-img {
-  @apply w-50 px-2 py-2 rounded-full
+  @apply w-50 px-2 py-2 rounded-full;
 }
 
 .activity-title {
@@ -35,5 +35,29 @@
 }
 
 .activity-des {
-  @apply text-center w-100 flex-wrap text-sm
+  @apply text-center w-100 flex-wrap text-sm;
+}
+
+.guide-con {
+  @apply flex justify-center items-center py-10 my-20 gap-2.5 bg-blue-300 backdrop-blur-2xl shadow-lg;
+}
+
+.guide-text-con {
+  @apply flex flex-col justify-center items-center flex-wrap px-2.5;
+}
+
+.guide-img {
+  @apply w-55;
+}
+
+.guide-title {
+  @apply font-semibold text-lg;
+}
+
+.guide-des {
+  @apply w-75 text-sm mt-7;
+}
+
+.guide-name {
+  @apply font-semibold mt-2.5;
 }

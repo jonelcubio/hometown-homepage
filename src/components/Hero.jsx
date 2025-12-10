@@ -1,5 +1,5 @@
 import activityData from "../data/activityData";
-
+import girl from "../assets/girl.png";
 export function Hero() {
   return(
     <>
@@ -13,6 +13,18 @@ export function Hero() {
         <div className="activity-des">{activity.des}</div>
       </div>
     ))}
+    </div>
+
+    <div className="guide-con">
+      <div className="guide-img-con">
+        <img src={girl} className="guide-img" />
+      </div>
+    
+    <div className="guide-text-con">
+      <div className="guide-title">Your Guide</div>
+      <div className="guide-des">I have lived in Seoul for over 30 years, so I can show you all of its best parts and hidden secrets.</div>
+      <div className="guide-name">Park So Yeen</div>
+    </div>
     </div>
     </>
   );
